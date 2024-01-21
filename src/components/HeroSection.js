@@ -16,11 +16,6 @@ function HeroSection() {
                   buttonSize='btn--large'>
                 Start Appointment      
             </Button>
-            <Button className='btns'
-                  buttonStyle='btn--primary'
-                  buttonSize='btn--large'>
-                Hi <i className='far-play-circle'/>     
-            </Button>
         </div>
     </div>
   )
