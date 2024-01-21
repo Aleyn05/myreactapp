@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Services(props) {
+function CardsItem(props) {
   return (
     <>
       <li className='cards__item'>
@@ -22,4 +22,4 @@ function Services(props) {
   );
 }
 
-export default Services;
+export default CardsItem;
