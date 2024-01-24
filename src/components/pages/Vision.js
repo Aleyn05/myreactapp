@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Vision.css';
 
 function Vision() {
+   // State variable to store the background image URL
+  const [backgroundImage, setBackgroundImage] = useState('');
+
+  useEffect(() => {
+    // Fetch the background image URL or set it from some source
+  const imageUrl = './vision-banner2.jpg'; // Replace with the correct path to your image
+  setBackgroundImage(imageUrl);
+  }, []);
+
   return (        
-      <div className='vision-container'>
-      <img src="./services_1.jpg" alt="banner" />
-      <h1>About Us</h1>
+      <div className='vision-container' style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <h1>Vision</h1>
       <p>
-        Welcome to FurryTails, your trusted partner in feline healthcare.
-        <br /><br />At FurryTails, we understand the unique bond between your pets
-        <br />and their owners. Our dedicated team of veterinarians and staff
-        <br /> are passionate about providing compassionate, personalized care
-        <br /> to ensure the well-being of your feline family members.
+        <br />At FurryTails, we envision a world where every pet
+        <br/>enjoys a life of optimal health, happiness, and companionship,
+        <br/>supported by compassionate and advanced veterinary care.
           </p>
           </div>
   );

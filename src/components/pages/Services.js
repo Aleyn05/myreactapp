@@ -1,13 +1,23 @@
 import React from 'react';
-import './Services.css';
+import Teleconsult from './Teleconsult';
+import Referral from './Referral';
+import LaboratoryTesting from './LaboratoryTesting';
+import Imaging from './Imaging';
+import ConsultStandard from './ConsultStandard';
+import ConsultExtended from './ConsultExtended';
 
-export default function Services() {
+
+function Services() {
   return (
-    <div className='services-container'>
-      <img src="./services-banner.jpg" alt="banner" />
-      <h1 className='login'>Services</h1>;
-
-    </div>
-
-  )
+    <>
+      <Teleconsult />
+      <Referral />
+      <LaboratoryTesting />
+      <Imaging />
+      <ConsultExtended />
+      <ConsultStandard />
+    </>
+  );
 }
+
+export default Services;

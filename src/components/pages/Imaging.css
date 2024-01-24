@@ -1,0 +1,74 @@
+/* About.css */
+
+img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.imaging-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* Align container to the right */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.imaging-container>h1 {
+    color: #EAD196;
+    /* White color */
+    font-size: 120px;
+    /* Adjusted font size */
+    margin-top: -110px;
+    /* Adjusted margin for top */
+    margin-right: 4rem;
+    /* Adjusted margin for right alignment */
+    text-align: center;
+}
+
+.imaging-container>p {
+    margin-top: 8px;
+    color: #FFFFFF;
+    /* White color */
+    margin-right: 3rem;
+    /* Adjusted margin for right alignment */
+    font-size: 20px;
+    /* Adjusted font size */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    .imaging-container>h1 {
+        font-size: 40px;
+        /* Adjusted font size for smaller screens */
+        margin-top: -100px;
+        /* Adjusted margin for top */
+        margin-right: 0;
+        /* Reset margin for smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imaging-container>h1 {
+        font-size: 30px;
+        /* Adjusted font size for smaller screens */
+        margin-top: -60px;
+        /* Adjusted margin for top */
+        margin-right: 0;
+        /* Reset margin for smaller screens */
+    }
+
+    .imaging-container>p {
+        font-size: 16px;
+        /* Adjusted font size for smaller screens */
+        margin-right: 0;
+        /* Reset margin for smaller screens */
+    }
+}
