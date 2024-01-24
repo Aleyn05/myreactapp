@@ -1,6 +1,13 @@
 import React from 'react';
-import '../../App.css';
+import './Services.css';
 
 export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+  return (
+    <div className='services-container'>
+      <img src="./services-banner.jpg" alt="banner" />
+      <h1 className='login'>Services</h1>;
+
+    </div>
+
+  )
 }
