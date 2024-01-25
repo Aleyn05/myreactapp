@@ -34,9 +34,10 @@ img {
     margin-top: 8px;
     color: #FFFFFF;
     /* White color */
-    margin-right: 53rem;
+    margin-right: 45rem;
+    margin-left: 7rem;
     /* Adjusted margin for right alignment */
-    font-size: 20px;
+    font-size: 28px;
     /* Adjusted font size */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
         'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,18 +56,20 @@ img {
 
 @media screen and (max-width: 768px) {
     .vision-container>h1 {
-        font-size: 30px;
+        font-size: 50px;
         /* Adjusted font size for smaller screens */
         margin-top: -60px;
         /* Adjusted margin for top */
-        margin-right: 0;
+        margin-right: 11rem;
         /* Reset margin for smaller screens */
     }
 
     .vision-container>p {
-        font-size: 16px;
+        font-size: 25px;
         /* Adjusted font size for smaller screens */
-        margin-right: 0;
+        margin-right: 6.5rem;
         /* Reset margin for smaller screens */
+        text-align: center;
     }
+
 }

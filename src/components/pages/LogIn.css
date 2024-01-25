@@ -1,107 +1,97 @@
-img {
+/* LogIn.css */
+
+.container {
+    height: 120vh;
+    /* Adjust the height as needed */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+    /* Ensure the background image doesn't overflow */
+}
+
+.login-banner {
     object-fit: fill;
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
+    /* Maintain the aspect ratio and cover the container */
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    object-fit: contain;
-}
-
-.header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 9px;
-    width: 100%;
-    margin-top: 30px;
+.header {
+    text-align: center;
+    /* Center the text */
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
 }
 
 .text {
-    color:#ff3b3b;
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 24px;
+    /* Adjust font size */
+    font-weight: bold;
+    /* Make the text bold */
+    color: #333;
+    /* Set text color */
 }
 
-.underline{
-    width: px;
-    height: 6px;
-    background-color: #ff3b3b;
-    border-radius: 9px;
+.underline {
+    width: 50px;
+    /* Set the width of the underline */
+    height: 2px;
+    /* Set the height/thickness of the underline */
+    background-color: #333;
+    /* Set the color of the underline */
+    margin: 10px auto;
+    /* Center the underline with margin */
 }
 
-.inputs{
-    margin-top: 55px;
-    display:flex;
-    flex-direction: column;
-    gap: 25px;
+.inputs {
+    margin-bottom: 20px;
+    /* Add margin to the bottom for spacing */
 }
 
-.input{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 480px;
-    height: 80px;
-    background: white;
-    border-radius: 6px;
+.input {
+    /* Your input styles here */
+    margin-bottom: 15px;
+    /* Add margin between inputs */
 }
 
-.input input{
-    margin-left: 2rem;
-    height: 50px;
-    width: 400px;
-    background: transparent;
+input {
+    width: 100%;
+    /* Make the input full width */
+    padding: 10px;
+    /* Add padding to the input */
+    border: 1px solid #ccc;
+    /* Add a border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
+}
+
+.submit-container {
+    text-align: center;
+    /* Center the submit container */
+}
+
+.submit {
+    background-color: #5ed2b9;
+    /* Set the background color of the submit button */
+    color: white;
+    /* Set text color */
+    padding: 10px 20px;
+    /* Add padding to the button */
     border: none;
-    outline: none;
-    color: slategray;
-    font-size: 18px;
-}
-
-.forgot-password{
-    padding-left: 62px;
-    margin-top: 27px;
-    color: slategray;
-    font-size: 18px;
-}
-
-.forgot-password span{
-    color: brown;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border-radius for rounded corners */
     cursor: pointer;
+    /* Add pointer cursor */
 }
 
-.submit-container{
-    display: flex;
-    gap: 30px;
-    margin: 60px auto;
-    
-}
-
-.submit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 220px;
-    height: 59px;
-    border-radius: 50px;
-    font-size: 19px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-.submit:hover{
-    color: #ff3b3b;
-    background: #fff;
-}
-
-.gray{
-    background: #ff3b3b;
-    color: #F3EDC8;
+.gray {
+    background-color: #ccc;
+    /* Set background color for the grayed-out button */
 }

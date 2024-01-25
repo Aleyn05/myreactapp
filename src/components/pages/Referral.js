@@ -4,17 +4,14 @@ import './Referral.css';
 function Referral() {
   return (
     <div className='referral-container'>
-      <img src="./services_2.jpg" alt="banner" />
-      <h1>Consult Standard</h1>
+      <h1>Referral</h1>
       <p>
-        Welcome to FurryTails, your trusted partner in feline healthcare.
-        <br /><br />We are your partners in ensuring the longevity and happiness of
-        <br />your animal companions. Our commitment to the well-being of
-        <br />your pets is reflected in our personalized and compassionate 
-        <br />approach to veterinary medicine.
+        <br/>For referral tests or procedures from non-PHH veterinarians such as blood tests, ultrasounds, or x-rays.
+        <br/>You are required to bring your vet's referral letter
+        <br/>Second opinions or full referrals (when your vet is passing a case to us and will no longer supervise and/or monitor your pet’s progress)
+        <br/>should be booked as a “consult, extended.” These will require a consultation with one of our vets so that we might get a thorough medical history from you.
       </p>
     </div>
-
 
   );
 }

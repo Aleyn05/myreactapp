@@ -6,7 +6,7 @@ img {
     z-index: -1;
 }
 
-.mission-container {
+.story-container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,19 +21,14 @@ img {
     object-fit: contain;
 }
 
-.mission-container>h1 {
+.story-container>h1 {
     color: #BF3131;
     font-size: 120px;
-    text-align: justify;
-    margin-bottom: 2rem;
+    margin-top: 12rem;
 }
 
-.mission-container>p {
-    align-self: center;
-    margin-top: 1rem;
-    margin-bottom: 7rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+.story-container>p {
+    margin-bottom: 25rem;
     color: #332C39;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
@@ -42,17 +37,17 @@ img {
 }
 
 @media screen and (max-width: 960px) {
-    .mission-container>h1 {
+    .story-container>h1 {
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .mission-container>h1 {
+    .story-container>h1 {
         font-size: 50px;
     }
 
-    .mission-container>p {
-        font-size: 15px;
+    .story-container>p {
+        font-size: 17px;
     }
 }

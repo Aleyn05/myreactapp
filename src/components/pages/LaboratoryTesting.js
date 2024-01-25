@@ -4,14 +4,14 @@ import './LaboratoryTesting.css';
 function LaboratoryTesting() {
   return (
     <div className='laboratory-container'>
-      <img src="./services_2.jpg" alt="banner" />
-      <h1>Consult Standard</h1>
+      <h1>Laboratory</h1>
       <p>
-        Welcome to FurryTails, your trusted partner in feline healthcare.
-        <br /><br />We are your partners in ensuring the longevity and happiness of
-        <br />your animal companions. Our commitment to the well-being of
-        <br />your pets is reflected in our personalized and compassionate 
-        <br />approach to veterinary medicine.
+        For concerns that have been seen before by one of our veterinarians
+        where laboratory tests were recommended like (but not limited to):
+        <br/>Follow up tests like CBC to monitor anemia
+        <br/>Blood chemistry to monitor kidney disease
+        <br/>Ear swab to monitor an ear infection
+        <br/>Skin scrape to monitor a parasitic skin infection
       </p>
     </div>
 

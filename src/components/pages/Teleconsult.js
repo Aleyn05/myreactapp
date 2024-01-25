@@ -4,14 +4,13 @@ import './Teleconsult.css';
 function Teleconsult() {
   return (
     <div className='teleconsult-container'>
-      <img src="./services_2.jpg" alt="banner" />
-      <h1>Consult Standard</h1>
+      <img src="./teleconsult.jpg" alt="teleconsult" />
+      <h1>Teleconsult</h1>
       <p>
-        Welcome to FurryTails, your trusted partner in feline healthcare.
-        <br /><br />We are your partners in ensuring the longevity and happiness of
-        <br />your animal companions. Our commitment to the well-being of
-        <br />your pets is reflected in our personalized and compassionate 
-        <br />approach to veterinary medicine.
+        For concerns that are not urgent, and patient is not very sick.
+        <br/>For patients that are still relatively active, eating well, have not been sick for an extended period of time (no more than 2 days), or have been seen for this concern before at our clinic
+        <br/>Not all consults can be done virtually. Cases that may need laboratory work and/or imaging are best seen as in-clinic consults.
+        <br/>F2F consult is preferred, for a more accurate assessment and recommendation.
       </p>
     </div>
 

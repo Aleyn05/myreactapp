@@ -22,14 +22,14 @@ img {
     color: #FDFF00;
     font-size: 100px;
     margin-top: -100px;
-    margin-left: 6rem;
+    margin-left: 4rem;
     text-align: center;
 }
 
 .hero-container > p {
     margin-top: 8px;
     color: #FDFF00;
-    margin-left: 6rem;
+    margin-left: 4rem;
     font-size: 32px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,7 +37,7 @@ img {
 
 .hero-btns {
     margin-top: 32px;
-    margin-left: 6rem;
+    margin-left: 4rem;
 }
 
 .hero-btns .btn {
@@ -55,17 +55,20 @@ img {
 
 @media screen and (max-width: 768px) {
     .hero-container>h1 {
-        font-size: 50px;
+        font-size: 40px;
         margin-top: -100px;
+        margin-left: 2rem;
     }
 
     .hero-container>p {
-        font-size: 30px;
+        font-size: 15px;
+        margin-left: 1rem;
     }
 
     .btn-mobile {
         display: block;
         text-decoration: none;
+        margin-right: 4.5rem;
     }
 
     .btn {

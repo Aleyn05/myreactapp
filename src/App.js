@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Services from './components/pages/Services';
 import LogIn from './components/pages/LogIn';
+import Appointment from './components/pages/Appoinment.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/about' component={AboutUs} />
           <Route path='/services' component={Services} />
           <Route path='/log-in' component={LogIn} /> 
+          <Route path='/Appointment' component={Appointment} /> 
         </Switch>
       </Router>
     </>

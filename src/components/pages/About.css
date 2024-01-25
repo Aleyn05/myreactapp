@@ -57,18 +57,19 @@ img {
 
 @media screen and (max-width: 768px) {
     .about-container>h1 {
-        font-size: 30px;
+        font-size: 50px;
         /* Adjusted font size for smaller screens */
         margin-top: -60px;
         /* Adjusted margin for top */
-        margin-right: 0;
+        margin-right: 10rem;
         /* Reset margin for smaller screens */
     }
 
     .about-container>p {
         font-size: 16px;
         /* Adjusted font size for smaller screens */
-        margin-right: 0;
+        margin-right: 2rem;
         /* Reset margin for smaller screens */
+        text-align: center;
     }
 }
