@@ -1,11 +1,10 @@
 /* Appointment.css */
 
-.container {
-    height: 100vh;
+.appointment-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .appointment-banner {
@@ -13,101 +12,88 @@
     width: 100%;
     height: 100%;
     position: fixed;
+    margin-top: -6rem;
     z-index: -1;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
 
-.container .header {
+.header {
     text-align: center;
-}
-
-.container .text {
-    font-size: 70px;
-    font-weight: bold;
-    color: #000000;
-}
-
-.container .underline {
-    width: 400px;
-    height: 8px;
-    background-color: #BF3131;
-    margin: 10px auto;
-}
-
-.container .inputs {
     margin-bottom: 20px;
 }
 
-.container .input {
-    margin-bottom: 15px;
+.text {
+    font-size: 70px;
 }
 
-.container input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
+.underline {
+    border-bottom: 2px solid #000;
+    width: 100px;
+    margin: 0 auto;
 }
 
-.container .submit-container,
-.container .go-back-container {
+.info-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-column,
+.right-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 600px;
+    font-size: x-large;
+    
 }
 
-.container .submit,
-.container .request-appointment,
-.container .go-back {
+.inputs {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.label {
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.go-back-container {
+    text-align: center;
+}
+
+.go-back {
     cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.request-appointment,
+.submit {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
     padding: 10px 20px;
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
-.container .submit {
-    background-color: #5ed2b9;
-    color: #fff;
-}
-
-.container .submit.white {
-    background-color: #fff;
-    color: #000;
-}
-
-.container .request-appointment {
-    background-color: #FF0000;
-    color: #fff;
-}
-
-.container .go-back {
-    background-color: #5ed2b9;
-    color: #fff;
-}
-
-.container .gray {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.container .forgot-password {
-    font-size: 14px;
-    color: #555;
-    margin-top: 10px;
-}
-
-.container .forgot-password span {
-    color: #5ed2b9;
-    cursor: pointer;
-}
-
-.container .info-text {
-    text-align: center;
-    color: #000;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.container .info-text p {
-    margin-bottom: 10px;
+.request-appointment:hover,
+.submit:hover {
+    background-color: #45a049;
 }

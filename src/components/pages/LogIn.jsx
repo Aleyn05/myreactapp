@@ -10,7 +10,7 @@ const LogIn = () => {
   };
 
   return (
-    <div className='container'>
+    <div className='login-container'>
       <img className='login-banner' src="./login-banner.jpg" alt="banner" />
       <div className="header">
         <div className="text">{action}</div>
